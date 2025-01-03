@@ -55,7 +55,10 @@
 
 <body>
 
-    <header class="header">
+    <header
+        id="home"
+        class="header"
+    >
         <div class="navbar container">
             <div class="header__logo">
                 <img
@@ -79,62 +82,52 @@
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#home"
                             class="nav__link"
                         >Home
                         </a>
                     </li>
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#features"
                             class="nav__link"
                         >Features
                         </a>
                     </li>
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#pricing"
                             class="nav__link"
                         >Pricing
                         </a>
                     </li>
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#blog"
                             class="nav__link"
                         >Blog
                         </a>
                     </li>
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#pages"
                             class="nav__link"
                         >Pages
                         </a>
                     </li>
                     <li class="nav__item">
                         <a
-                            href=""
+                            href="#contact"
                             class="nav__link"
                         >Contact
                         </a>
                     </li>
                 </ul>
             </nav>
-
-
             <button class="cta-button cta-button--download-header">
                 Download Now
             </button>
-
-
         </div>
-
-
-
-
-
-
     </header>
 
     <section class="hero__section">
@@ -167,7 +160,10 @@
         </article>
     </section>
 
-    <section class="features__section container">
+    <section
+        id="features"
+        class="features__section container"
+    >
         <h2 class="section__heading">
             Save your time to using applab
         </h2>
@@ -222,7 +218,6 @@
                     alt="features-graphic"
                 >
             </div>
-
         </div>
     </section>
 
@@ -248,7 +243,10 @@
         </article>
     </section>
 
-    <section class="pricing__section container">
+    <section
+        id="pricing"
+        class="pricing__section container"
+    >
         <div class="pricing__section-header">
             <h2 class="section__heading">
                 Unlock full Power
@@ -258,7 +256,6 @@
             </p>
         </div>
         <div class="offer__container">
-
             <div class="offer__plans-card offer__plans-card-1">
                 <div class="offer__header offer__header--basic">
                     <h3 class="offer__plan">Basic</h3>
@@ -305,9 +302,7 @@
                     Get Now
                 </button>
             </div>
-
         </div>
-
     </section>
 
     <section class="download__section">
@@ -335,15 +330,19 @@
         </div>
     </section>
 
-    <footer class="footer">
-
+    <footer
+        id="contact"
+        class="footer"
+    >
         <div class="footer__header">
             <div class="footer__logo">
-                <img
-                    class="logo"
-                    src="./images/logo.png"
-                    alt="applab-logo"
-                >
+                <a href="#home">
+                    <img
+                        class="logo"
+                        src="./images/logo.png"
+                        alt="applab-logo"
+                    >
+                </a>
             </div>
             <h3 class="footer__heading">
                 Firmament morning sixth darkness creeping gathered divide
@@ -372,25 +371,23 @@
             </div>
         </div>
 
-
-
         <div class="footer__services">
             <ul class="footer__list">
                 Services
-                <li class="footer__list-item"><a href="">Team management</a></li>
-                <li class="footer__list-item"><a href="">Colaboration</a></li>
-                <li class="footer__list-item"><a href="">Todo</a></li>
-                <li class="footer__list-item"><a href="">Events</a></li>
+                <li class="footer__list-item"><a href="#team">Team management</a></li>
+                <li class="footer__list-item"><a href="#colaboration">Colaboration</a></li>
+                <li class="footer__list-item"><a href="#todo">Todo</a></li>
+                <li class="footer__list-item"><a href="#events">Events</a></li>
             </ul>
         </div>
 
         <div class="foooter__links">
             <ul class="footer__list">
                 Usuful Links
-                <li class="footer__list-item"><a href="">Pricing</a></li>
-                <li class="footer__list-item"><a href="">Features</a></li>
-                <li class="footer__list-item"><a href="">Blog</a></li>
-                <li class="footer__list-item"><a href="">Contact</a></li>
+                <li class="footer__list-item"><a href="#pricing">Pricing</a></li>
+                <li class="footer__list-item"><a href="#features">Features</a></li>
+                <li class="footer__list-item"><a href="#blog">Blog</a></li>
+                <li class="footer__list-item"><a href="#contact">Contact</a></li>
             </ul>
         </div>
 
