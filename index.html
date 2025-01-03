@@ -7,11 +7,407 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/reset.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/main.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/mobile.css"
+    >
+    <link
+        rel="stylesheet"
+        media="(min-width: 601px)"
+        href="./css/tablet.css"
+    >
+    <link
+        rel="stylesheet"
+        media="(min-width: 901px)"
+        href="./css/desktop.css"
+    >
+
+    <script
+        src="https://kit.fontawesome.com/1611b70a0e.js"
+        crossorigin="anonymous"
+    ></script>
+
     <title>Project-02</title>
+
 </head>
 
 <body>
 
+    <header class="header">
+        <div class="navbar container">
+            <div class="header__logo">
+                <img
+                    class="logo"
+                    src="./images/logo.png"
+                    alt="applab-logo"
+                >
+            </div>
+            <nav class="nav">
+                <label
+                    class="menu-switcher"
+                    for="menu-switcher"
+                >
+                    <i class="burger fa-solid fa-bars"></i>
+                </label>
+                <input
+                    class="input-switcher"
+                    type="checkbox"
+                    id="menu-switcher"
+                >
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Features
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Pricing
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Blog
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Pages
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a
+                            href=""
+                            class="nav__link"
+                        >Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <button class="cta-button cta-button--download-header">
+                Download Now
+            </button>
+
+
+        </div>
+
+
+
+
+
+
+    </header>
+
+    <section class="hero__section">
+        <article class="hero__article container">
+            <div class="hero__content">
+                <h1 class="hero__heading">Promote Your App With Applab</h1>
+                <p class="hero__text">
+                    Get more users to promote your app with this template
+                </p>
+                <button class="cta-button">
+                    Get Started Now
+                </button>
+            </div>
+            <picture class="images__container">
+                <source
+                    media="(min-width: 901px)"
+                    srcset="./images/phone-large.png"
+                >
+                <source
+                    media="(min-width: 601px)"
+                    srcset="./images/phone-medium.png"
+                >
+                <source srcset="./images/phone-small.png">
+                <img
+                    class="hero__image"
+                    src="./images/phone-large.png"
+                    alt="mobil-phone"
+                >
+            </picture>
+        </article>
+    </section>
+
+    <section class="features__section container">
+        <h2 class="section__heading">
+            Save your time to using applab
+        </h2>
+        <div class="features__container">
+            <ul class="features__list">
+                <li class="features__item">
+                    <img
+                        class="features__icon-1"
+                        src="./images/icons/1.svg"
+                        alt="team-icon"
+                    >
+                    Manage team in One Place
+                </li>
+                <li class="features__item">
+                    <img
+                        class="features__icon-2"
+                        src="./images/icons/2.svg"
+                        alt="team-icon"
+                    >
+                    All-powerful Pointing has no control
+                </li>
+                <li class="features__item">
+                    <img
+                        class="features__icon-3"
+                        src="./images/icons/3.svg"
+                        alt="team-icon"
+                    >
+                    Establish a solid online presence
+                </li>
+            </ul>
+        </div>
+
+        <div class="features__content">
+            <div class="features__content-items">
+                <h2 class="features__content-heading section__heading">
+                    Features that give you real feel
+                </h2>
+                <p class="features__content-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio exercitationem, quo earum
+                    reiciendis repudiandae porro dolores nemo voluptatum in enim magni modi neque quis voluptate,
+                    doloribus
+                    eaque rem ea.
+                </p>
+                <button class="cta-button cta-button--download">
+                    Download Now
+                </button>
+            </div>
+            <div class="features__img-container">
+                <img
+                    class="features__img"
+                    src="./images/draw.png"
+                    alt="features-graphic"
+                >
+            </div>
+
+        </div>
+    </section>
+
+    <section class="review__section">
+        <article class="container">
+            <h2 class="section__heading">
+                Review from our regular users
+            </h2>
+            <p class="review__section-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aliquam veritatis praesentium facere
+                necessitatibus autem. Optio voluptatum neque accusamus doloribus!
+            </p>
+            <div class="review__points">
+                <i class="review-icon fa-solid fa-star"></i>
+                <i class="review-icon fa-solid fa-star"></i>
+                <i class="review-icon fa-solid fa-star"></i>
+                <i class="review-icon fa-solid fa-star"></i>
+                <i class="review-icon fa-solid fa-star"></i>
+                <p class="review__author">
+                    - Robert Smile
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section class="pricing__section container">
+        <div class="pricing__section-header">
+            <h2 class="section__heading">
+                Unlock full Power
+            </h2>
+            <p class="pricing__section-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi obcaecati pariatur hic error!
+            </p>
+        </div>
+        <div class="offer__container">
+
+            <div class="offer__plans-card offer__plans-card-1">
+                <div class="offer__header offer__header--basic">
+                    <h3 class="offer__plan">Basic</h3>
+                    <p class="offer__price offer__price--basic">$06</p>
+                </div>
+                <ul class="offer__details">
+                    <li class="offer__bullet-point">One User</li>
+                    <li class="offer__bullet-point">1000 ui elements</li>
+                    <li class="offer__bullet-point">Webmail Support</li>
+                    <li class="offer__bullet-point">100GB Cloud Storage</li>
+                </ul>
+                <button class="cta-button cta__button--plan">
+                    Get Now
+                </button>
+            </div>
+            <div class="offer__plans-card offer__plans-card-2">
+                <div class="offer__header offer__header--team">
+                    <h3 class="offer__plan">Team</h3>
+                    <p class="offer__price offer__price--team">$08</p>
+                </div>
+                <ul class="offer__details">
+                    <li class="offer__bullet-point">One User</li>
+                    <li class="offer__bullet-point">1000 ui elements</li>
+                    <li class="offer__bullet-point">Webmail Support</li>
+                    <li class="offer__bullet-point">100GB Cloud Storage</li>
+                    <li class="offer__bullet-point">Unlimited Users</li>
+                </ul>
+                <button class="cta-button cta__button--plan">
+                    Get Now
+                </button>
+            </div>
+            <div class="offer__plans-card offer__plans-card-3">
+                <div class="offer__header offer__header--business">
+                    <h3 class="offer__plan">Business</h3>
+                    <p class="offer__price offer__price--business">$10</p>
+                </div>
+                <ul class="offer__details">
+                    <li class="offer__bullet-point">One User</li>
+                    <li class="offer__bullet-point">1000 ui elements</li>
+                    <li class="offer__bullet-point">Webmail Support</li>
+                    <li class="offer__bullet-point">100GB Cloud Storage</li>
+                </ul>
+                <button class="cta-button cta__button--plan">
+                    Get Now
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="download__section">
+        <div class="download__content container">
+            <h2 class="section__heading section__heading--white">Get start from now and increase productivity
+            </h2>
+            <div class="download__links">
+                <img
+                    class="apple-app"
+                    src="./images/app.svg"
+                    alt="app-store"
+                ><a
+                    href=""
+                    class="download__apple-app"
+                ></a></img>
+                <img
+                    class="android-app"
+                    src="./images/play.svg"
+                    alt="android-store"
+                ><a
+                    href=""
+                    class="download__android-app"
+                ></a></img>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer__header">
+            <div class="footer__logo">
+                <img
+                    class="logo"
+                    src="./images/logo.png"
+                    alt="applab-logo"
+                >
+            </div>
+            <h3 class="footer__heading">
+                Firmament morning sixth darkness creeping gathered divide
+            </h3>
+            <div class="footer__social">
+                <ul class="footer__list footer__list-social">
+                    <li class="footer__icon-item">
+                        <a href="#facebook">
+                            <i class="social-icon fa-brands fa-facebook-f">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="footer__icon-item">
+                        <a href="#twitter">
+                            <i class="social-icon fa-brands fa-twitter">
+                            </i>
+                        </a>
+                    </li>
+                    <li class="footer__icon-item">
+                        <a href="#instagram">
+                            <i class="social-icon fa-brands fa-instagram">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="footer__services">
+            <ul class="footer__list">
+                Services
+                <li class="footer__list-item"><a href="">Team management</a></li>
+                <li class="footer__list-item"><a href="">Colaboration</a></li>
+                <li class="footer__list-item"><a href="">Todo</a></li>
+                <li class="footer__list-item"><a href="">Events</a></li>
+            </ul>
+        </div>
+
+        <div class="foooter__links">
+            <ul class="footer__list">
+                Usuful Links
+                <li class="footer__list-item"><a href="">Pricing</a></li>
+                <li class="footer__list-item"><a href="">Features</a></li>
+                <li class="footer__list-item"><a href="">Blog</a></li>
+                <li class="footer__list-item"><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__downloads">
+            <ul class="footer__list">
+                Downloads
+                <li class="footer__list-item"><a href="">Download from Apple Store</a></li>
+                <li class="footer__list-item"><a href="">Download from Android Store</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <section class="copyrights__section">
+        <p class="copyrights__text">
+            Copyrights &copy; 2024 | All rigts reserved
+        </p>
+    </section>
 </body>
 
 </html>

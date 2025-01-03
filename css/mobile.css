@@ -1,0 +1,316 @@
+/* HEADER */
+
+.navbar {
+    padding: 10px;
+    background-color: var(--color-black);
+}
+.header__logo {
+    width: 80%;
+}
+.input-switcher:checked + .nav__list {
+    display: block;
+    align-content: start;
+    height: calc(100vh - 60px);
+    text-align: center;
+    margin-top: 60px;
+}
+.input-switcher {
+    display: none;
+}
+.menu-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.burger {
+    color: var(--color-white);
+    padding: 5px;
+    font-size: var(--step-2);
+}
+.nav__list {
+    display: none;
+}
+.nav__item {
+    margin-bottom: 20px;
+}
+.nav__item:hover {
+    color: var(--cta-button-download);
+}
+.nav__link {
+    padding: 5px;
+    font-size: var(--step-2);
+    color: var(--color-white);
+}
+.nav__list > .nav__item:last-child {
+    margin-bottom: 0;
+}
+.cta-button--download-header {
+    display: none;
+}
+
+/* END OF HEADER */
+
+/* HERO SECTION */
+
+.hero__section {
+    color: var(--color-white);
+    height: calc(100% - 60px);
+    margin-bottom: 40px;
+    background-image: url('..//images/banner/banner-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__content {
+    padding: 10px 10px;
+    margin-bottom: 40px;
+}
+.hero__heading {
+    margin: 10px 0 10px 0;
+    font-size: var(--step-2);
+    letter-spacing: 1px;
+}
+.hero__text {
+    margin-bottom: 20px;
+    font-size: var(--step--1);
+}
+.images__container {
+    display: flex;
+    justify-content: center;
+}
+.hero__image {
+    width: 300px;
+}
+
+/* END OF HERO SECTION */
+
+/* FEATURES */
+
+.section__heading {
+    text-align: center;
+    font-size: var(--step-2);
+    padding: 80px 0 20px 0;
+}
+.features__container {
+    margin: 0 auto;  
+    width: 60%; 
+}
+.features__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: var(--step-1);
+   text-align: center;
+}
+.features__icon-1, 
+.features__icon-2, 
+.features__icon-3 {
+    border-radius: 12px;
+    padding: 18px;
+    margin: 40px 0;
+}
+.features__icon-1 {
+    background: var(--team-icon-gradient);
+}
+.features__icon-2 {
+    background: var(--leaf-icon-gradient);
+}
+.features__icon-3 {
+    background: var(--chat-icon-gradient);
+}
+.features__content-text {
+    text-align: start;
+    margin: 20px 0;
+    padding: 0 20px;
+    color: var(--dark-text);
+    font-size: var(--step--1);
+}
+.features__img-container {
+    padding-bottom: 50px;
+}
+.features__img {
+    width: 100%;
+}
+
+/* END OF FEATURES */
+
+/* REVIEW SECTION */
+
+.review__section {
+    color: var(--color-white);
+    padding: 40px 20px;
+    background-image: 
+        var(--review-section-filter),
+        url('../images/banner/testmonial.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.section__heading {
+    font-size: var(--step-2);
+}
+.review__section-text {
+    margin: 20px 0;
+    text-align: center;
+    font-size: var(--step--1);
+}
+.review__points {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.review-icon {
+    color: var(--review-icon);
+}
+.review__author {
+    font-size: var(--step--2);
+    margin-left: 5px;
+}
+
+/* END OF REVIEW SECTION */
+
+/* PRICING SECTION */
+
+.pricing__section {
+    padding: 40px 10px;
+}
+.pricing__section-text {
+    text-align: center;
+    color: var(--dark-text);
+}
+.offer__plans-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 10px;
+    box-shadow: 10px 10px 10px 0 rgba(13, 39, 80, .16);
+    transition: scale .3s ease-in-out;
+}
+.offer__plans-card:hover {
+    scale: 1.03;
+}
+.offer__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: var(--step-0);
+}
+.offer__header--basic {
+    background-color: var(--basic-plan);
+}
+.offer__header--team {
+    background-color: var(--team-plan);
+}
+.offer__header--business {
+    background-color: var(--business-plan);
+}
+.offer__price--basic {
+    color: var(--price--basic-color);
+}
+.offer__price--team {
+    color: var(--price--team-color);
+}
+.offer__price--business {
+    color: var(--price--business-color);
+}
+.offer__details {
+    text-align: center;
+    margin-top: 20px;
+}
+.offer__bullet-point {
+    margin-bottom: 20px;
+}
+
+/* END OF PRICING SECTION */
+
+/* DOWNLOAD SECTION */
+
+.download__section {
+    padding: 70px 50px 100px;
+    background-image: url('../images/banner/product.png');;
+}
+.section__heading--white {
+    color: var(--color-white);
+    font-size: var(--step-3);
+}
+.download__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple-app {
+    min-height: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.android-app {
+    min-height: 50px;
+    cursor: pointer;
+}
+
+/* END OF DOWNLOAD SECTION */
+
+/* FOOTER */
+
+.footer {
+    color: var(--color-white);
+    padding: 40px 20px;
+    background-color: rgb(21, 21, 21);
+}
+.footer__logo {
+    font-size: var(--step--2);
+}
+.footer__heading {
+    color: var(--dark-text);
+    padding: 0 20px 0 0;
+}
+.footer__list {
+    font-size: var(--step-2);
+    margin-top: 20px;
+}
+.footer__list-social {
+    display: flex;
+}
+.footer__icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: var(--dark-text);
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.footer__icon-item:hover {
+    scale: 1.1;
+}
+.social-icon {
+    color:rgb(230, 230, 230);
+    font-size: var(--step-0);
+}
+.social-icon:hover {
+    color:var(--color-white);
+}
+.footer__list-item > a {
+    color: var(--dark-text);
+    font-size: var(--step-0);
+}
+.footer__list-item:hover > a {
+    color: var(--color-white);
+}
+
+/* END OF FOOTER */
+
+/* COPYRIGHTS */
+
+.copyrights__section {
+    color: var(--color-white);
+    padding: 20px;
+    text-align: center;
+    background-color: var(--color-black);
+    font-size: var(--step--2);
+}
+/* END OF COPYRIGHTS */

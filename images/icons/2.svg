@@ -1,7 +1,10 @@
-<svg id="https:_material.io_resources_icons_icon_group_work_style_outline" data-name="https://material.io/resources/icons/?icon=group_work&amp;style=outline" xmlns="http://www.w3.org/2000/svg" width="52.25" height="52.25" viewBox="0 0 52.25 52.25">
-  <path id="Path_47" data-name="Path 47" d="M0,0H52.25V52.25H0Z" fill="none"/>
-  <path id="Path_48" data-name="Path 48" d="M23.771,2A21.771,21.771,0,1,0,45.542,23.771,21.779,21.779,0,0,0,23.771,2Zm0,39.188A17.417,17.417,0,1,1,41.188,23.771,17.44,17.44,0,0,1,23.771,41.188Z" transform="translate(2.354 2.354)" fill="#fff"/>
-  <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="4.342" cy="4.342" rx="4.342" ry="4.342" transform="translate(12.928 26.125)" fill="#fff"/>
-  <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="4.962" cy="4.342" rx="4.962" ry="4.342" transform="translate(21.611 13.721)" fill="#fff"/>
-  <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="4.342" cy="4.342" rx="4.342" ry="4.342" transform="translate(31.535 26.125)" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="52" viewBox="0 0 51 52">
+  <g id="https:_material.io_resources_icons_icon_eco_style_outline" data-name="https://material.io/resources/icons/?icon=eco&amp;style=outline" transform="translate(0.083 -0.414)">
+    <g id="Bounding_Box" transform="translate(0 0)">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="51" height="52" transform="translate(-0.083 0.414)" fill="none"/>
+    </g>
+    <g id="Master" transform="translate(7.821 8.989)">
+      <path id="Path_49" data-name="Path 49" d="M8.46,12.817A15.24,15.24,0,0,0,30.013,34.371C37.59,26.794,38.831,4,38.831,4S16.036,5.241,8.46,12.817ZM26.944,31.3A10.794,10.794,0,0,1,13.838,33,34.652,34.652,0,0,1,24.462,17.063,35.107,35.107,0,0,0,10.594,30.125a10.86,10.86,0,0,1,.958-14.238c3.788-3.788,14.3-6.118,22.489-7.1C33.061,16.976,30.732,27.491,26.944,31.3Z" transform="translate(-4.003 -4)" fill="#fff"/>
+    </g>
+  </g>
 </svg>

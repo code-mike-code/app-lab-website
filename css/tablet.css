@@ -1,0 +1,214 @@
+/*  TABLET */
+
+/*  HEADER */
+
+.navbar {
+    padding: 20px 30px;
+}
+.menu-switcher {
+    top: 15px;
+    right: 30px;
+}
+.burger {
+    font-size: var(--step-3);
+}
+.nav__item {
+    margin-bottom: 30px;
+}
+.nav__link {
+    padding: 10px;
+    font-size: var(--step-3);
+}
+.cta-button--download-header {
+    display: none;
+}
+
+/* END OF HEADER */
+
+/* HERO SECTION */
+
+.hero__section {
+    padding: 60px 30px 60px 30px;
+}
+
+.hero__article {
+    display: flex;
+}
+.hero__image {
+    width: 360px;
+}
+
+
+
+.hero__heading {
+    font-size: var(--step-2);
+}
+.hero__text {
+    font-size: var(--step--1);
+}
+
+/* END OF HERO SECTION */
+
+/* FEATURES SECTION */
+
+.features__container {
+    width: 100%;
+}
+.features__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.features__item {
+    height: 200px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.features__item:last-child {
+    margin-right: 0;
+}
+.features__icon-1, 
+.features__icon-2, 
+.features__icon-3 {
+    padding: 18px;
+    margin: 0 0 20px;
+}
+.features__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.features__content-items {
+    width: 50%;
+}
+.features__img-container {
+    width: 50%;
+}
+.features__content-heading {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* END OF FEATURES */
+
+/* REVIEW SECTION */
+
+.review__section {
+    padding: 40px;
+}
+
+/* END OF REVIEW SECTION */
+
+/* PRICING SECTION */
+
+.pricing__section-text {
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+.offer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 60px;
+}
+.offer__plans-card {
+    justify-content: space-between;
+    margin: 0;
+    font-size: var(--step--2);
+    background-color: var(--color-white);
+}
+.offer__plans-card-1 {
+    width: 33%;
+    box-shadow: 0 0 36px 0 rgba(13, 39, 80, .16);
+}
+.offer__plans-card-2 {
+    width: 31.5%;
+    box-shadow: 0 0 36px 0 rgba(13, 39, 80, .16);
+    z-index: 10;
+    transition: 0.5s ease;
+}
+.offer__plans-card-3 {
+    width: 33%;
+    box-shadow: 0 0 36px 0 rgba(13, 39, 80, .16);
+}
+.offer__plans-card-2:hover {
+    width: 33%;
+}
+.offer__plans-card-1:hover, .offer__plans-card-3:hover {
+    z-index: 11;
+}
+
+/* END OF PRICING SECTION */
+
+/* DOWNLOAD SECTION */
+
+.download__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 70px;
+}
+.section__heading--white {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: var(--step-3);
+    text-align: start;
+}
+.apple-app {
+    min-height: 50px;
+    margin-right: 10px;
+}
+.android-app {
+    min-height: 50px;
+}
+
+/* END OF DOWNLOAD SECTION */
+
+/* FOOTER */
+
+.footer {
+    display: grid;
+    grid-template-areas:
+    "a-header a-services"
+    "a-links a-downloads";
+    grid-template-columns: 
+    50%
+    50%;
+    padding: 50px;
+}
+.footer__logo {
+    font-size: var(--step-1);
+}
+.footer__list-item:first-child {
+    margin: 20px 0 0 0;
+}
+.footer__list-social {
+    margin-top: 20px;
+}
+.footer__icon-item {
+    height: 50px;
+    width: 50px;
+}
+.social-icon  {
+    font-size: var(--step-1);
+}
+.footer__header {
+    grid-area: a-header;
+}
+.footer__services {
+    grid-area: a-services;
+}
+.footer__services > .footer__list{
+    margin-top: 0;
+}
+.footer__links {
+    grid-area: a-links;
+}
+.footer__downloads {
+    grid-area: a-downloads;
+}
+
+/* END OF FOOTER */
