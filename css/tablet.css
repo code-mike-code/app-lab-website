@@ -10,14 +10,14 @@
     right: 30px;
 }
 .burger {
-    font-size: var(--step-3);
+    font-size: var(--font-size-xxl);
 }
 .nav__item {
     margin-bottom: 30px;
 }
 .nav__link {
     padding: 10px;
-    font-size: var(--step-3);
+    font-size: var(--font-size-xxl);
 }
 .cta-button--download-header {
     display: none;
@@ -41,10 +41,10 @@
 
 
 .hero__heading {
-    font-size: var(--step-2);
+    font-size: var(--font-size-xl);
 }
 .hero__text {
-    font-size: var(--step--1);
+    font-size: var(--font-size-s);
 }
 
 /* END OF HERO SECTION */
@@ -68,10 +68,7 @@
 .features__item:last-child {
     margin-right: 0;
 }
-.features__icon-1, 
-.features__icon-2, 
-.features__icon-3 {
-    padding: 18px;
+.features__icon {
     margin: 0 0 20px;
 }
 .features__content {
@@ -116,7 +113,7 @@
 .offer__plans-card {
     justify-content: space-between;
     margin: 0;
-    font-size: var(--step--2);
+    font-size: var(--font-size-xs);
     background-color: var(--color-white);
 }
 .offer__plans-card-1 {
@@ -154,7 +151,7 @@
 .section__heading--white {
     padding: 0;
     margin: 0 0 10px 0;
-    font-size: var(--step-3);
+    font-size: var(--font-size-xxl);
     text-align: start;
 }
 .apple-app {
@@ -180,7 +177,7 @@
     padding: 50px;
 }
 .footer__logo {
-    font-size: var(--step-1);
+    font-size: var(--font-size-l);
 }
 .footer__list-item:first-child {
     margin: 20px 0 0 0;
@@ -193,7 +190,7 @@
     width: 50px;
 }
 .social-icon  {
-    font-size: var(--step-1);
+    font-size: var(--font-size-l);
 }
 .footer__header {
     grid-area: a-header;

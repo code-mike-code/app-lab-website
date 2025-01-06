@@ -17,12 +17,12 @@
     --price--team-color: rgb(255, 189, 118);
     --price--business-color: rgb(3, 209, 118);
         /* fonts sizes */
-    --step--2: clamp(0.6944rem, 0.6561rem + 0.1919vw, 0.8rem);
-    --step--1: clamp(0.8333rem, 0.7727rem + 0.303vw, 1rem);
-    --step-0: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
-    --step-1: clamp(1.2rem, 1.0682rem + 0.6591vw, 1.5625rem);
-    --step-2: clamp(1.44rem, 1.2534rem + 0.933vw, 1.9531rem);
-    --step-3: clamp(1.728rem, 1.4686rem + 1.2971vw, 2.4414rem);
+    --font-size-xs: clamp(0.6944rem, 0.6561rem + 0.1919vw, 0.8rem);
+    --font-size-s: clamp(0.8333rem, 0.7727rem + 0.303vw, 1rem);
+    --font-size-m: clamp(1rem, 0.9091rem + 0.4545vw, 1.25rem);
+    --font-size-l: clamp(1.2rem, 1.0682rem + 0.6591vw, 1.5625rem);
+    --font-size-xl: clamp(1.44rem, 1.2534rem + 0.933vw, 1.9531rem);
+    --font-size-xxl: clamp(1.728rem, 1.4686rem + 1.2971vw, 2.4414rem);
 }
 
 html, body {
@@ -45,7 +45,7 @@ a {
     background-color: var(--cta-button);
     border: none;
     border-radius: 4px;
-    font-size: var(--step--1);
+    font-size: var(--font-size-s);
     transition: 0.3s ease-in-out;
 }
 .cta-button:hover {
@@ -67,5 +67,5 @@ a {
     color: var(--cta-button);
     background-color: var(--color-white);
     border: 1px solid var(--cta-button);
-    font-size: var(--step--2);
+    font-size: var(--font-size-xs);
 }
