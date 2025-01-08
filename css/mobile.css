@@ -59,7 +59,7 @@
     background-image: url('..//images/banner/banner-small.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
 }
 .hero__content {
     padding: 10px 10px;
