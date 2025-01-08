@@ -1,7 +1,4 @@
 
-![header section](./assets/header-section-screen.png)
-
-
 # Project task-02 - Responsive Web Design (RWD)
 
 See the live version of [Responsive Web Design (RWD) project](https://code-mike-code.github.io/project-02/).
@@ -26,18 +23,7 @@ This project incorporates clamp() for responsive font sizing, providing a seamle
 
 &nbsp;
 
-### mobile => 600px
-
-![](./assets/mobile.png)
-
-### tablet => 900px
-
-![](./assets/tablet.png)
-
-### desktop => 1200px
-
-![](./assets/desktop.png)
-
+![](./assets/rwd-mockup-for%20readme.png)
 
 &nbsp;
  
