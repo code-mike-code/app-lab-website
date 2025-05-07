@@ -1,7 +1,7 @@
 
 # App Lab Website - Responsive Web Design (RWD)
 
-See the live version of [App Lab Website (RWD) project](https://code-mike-code.github.io/project-02/).
+See the live version of [App Lab Website (RWD) project](https://code-mike-code.github.io/app-lab-website/).
 
 Project made during learning process with my mentor program [devmentor.pl](https://devmentor.pl/). This project emphasizes Responsive Web Design (RWD), ensuring seamless adaptability across various devices and screen sizes. Built with HTML5 semantics, the structure is clean, accessible, and aligned with modern web standards. The styles leverage CSS3 basics to deliver a visually appealing and efficient design. Additionally, the BEM methodology ensures the CSS is modular, maintainable, and easy to scale for future development.
 
